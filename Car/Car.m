@@ -22,10 +22,17 @@ static NSString *_defaultModel;
 - (void)drive {
     NSLog(@"Driving a %@. Vrooooom!", self.model);
 }
-
-    + (void)setDefaultModel:(NSString *)aModel {
-        _defaultModel = [aModel copy];
++ (void)setDefaultModel:(NSString *)aModel {
+      _defaultModel = [aModel copy];
+        
 }
++ (void)initialize {
+    if (self == [Car class]) {
+        // Makes sure this isn't executed more than once
+        _defaultModel = @"Nissan Versa";
+    }
+}
+
 - (id)initWithModel:(NSString *)aModel {
     self = [super init];
     if (self) {

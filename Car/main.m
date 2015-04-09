@@ -10,9 +10,10 @@
 #import "Car.h"
 
 
-
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+   [Car setDefaultModel:@"Nissan Versa"];
+        
         Car *toyota = [[Car alloc] init];
         
         [toyota setModel:@"Toyota Corolla"];
