@@ -10,6 +10,8 @@
 
 @interface Car : NSObject {
 }
+
+
 @property (copy) NSString *model;
 -(id)initWithModel:(NSString *)aModel;
 -(void)drive;

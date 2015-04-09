@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		D14CD2E61AD6E9F700DBFEFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D14CD2E51AD6E9F700DBFEFE /* main.m */; };
 		D14CD2F01AD6EAB600DBFEFE /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = D14CD2EF1AD6EAB600DBFEFE /* Car.m */; };
+		D14CD3081AD71C2000DBFEFE /* Cellphone.m in Sources */ = {isa = PBXBuildFile; fileRef = D14CD3071AD71C2000DBFEFE /* Cellphone.m */; };
+		D14CD3111AD7214700DBFEFE /* Cellphone2.m in Sources */ = {isa = PBXBuildFile; fileRef = D14CD3101AD7214700DBFEFE /* Cellphone2.m */; };
+		D14CD3131AD7239800DBFEFE /* Challenge3.m in Sources */ = {isa = PBXBuildFile; fileRef = D14CD3121AD7239800DBFEFE /* Challenge3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,9 @@
 		D14CD2E51AD6E9F700DBFEFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D14CD2EE1AD6EAB600DBFEFE /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		D14CD2EF1AD6EAB600DBFEFE /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		D14CD3071AD71C2000DBFEFE /* Cellphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cellphone.m; sourceTree = "<group>"; };
+		D14CD3101AD7214700DBFEFE /* Cellphone2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cellphone2.m; sourceTree = "<group>"; };
+		D14CD3121AD7239800DBFEFE /* Challenge3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,10 @@
 		D14CD2D91AD6E9F700DBFEFE = {
 			isa = PBXGroup;
 			children = (
+				D14CD3141AD723AB00DBFEFE /* Challenge3 */,
+				D14CD3121AD7239800DBFEFE /* Challenge3.m */,
+				D14CD30B1AD71DEF00DBFEFE /* Challenge2 */,
+				D14CD3051AD71BC900DBFEFE /* Challenge1 */,
 				D14CD2F11AD6EAC200DBFEFE /* Model */,
 				D14CD2E41AD6E9F700DBFEFE /* Car */,
 				D14CD2E31AD6E9F700DBFEFE /* Products */,
@@ -74,6 +84,29 @@
 			);
 			name = Model;
 			path = Car;
+			sourceTree = "<group>";
+		};
+		D14CD3051AD71BC900DBFEFE /* Challenge1 */ = {
+			isa = PBXGroup;
+			children = (
+				D14CD3071AD71C2000DBFEFE /* Cellphone.m */,
+			);
+			name = Challenge1;
+			sourceTree = "<group>";
+		};
+		D14CD30B1AD71DEF00DBFEFE /* Challenge2 */ = {
+			isa = PBXGroup;
+			children = (
+				D14CD3101AD7214700DBFEFE /* Cellphone2.m */,
+			);
+			name = Challenge2;
+			sourceTree = "<group>";
+		};
+		D14CD3141AD723AB00DBFEFE /* Challenge3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Challenge3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D14CD2F01AD6EAB600DBFEFE /* Car.m in Sources */,
+				D14CD3081AD71C2000DBFEFE /* Cellphone.m in Sources */,
 				D14CD2E61AD6E9F700DBFEFE /* main.m in Sources */,
+				D14CD3111AD7214700DBFEFE /* Cellphone2.m in Sources */,
+				D14CD3131AD7239800DBFEFE /* Challenge3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +283,7 @@
 				D14CD2EB1AD6E9F700DBFEFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
