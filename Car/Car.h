@@ -11,7 +11,7 @@
 @interface Car : NSObject {
 }
 @property (copy) NSString *model;
-
+-(id)initWithModel:(NSString *)aModel;
 -(void)drive;
-
+-(void)setDefaultModel:(NSString *)aModel;
 @end
