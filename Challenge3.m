@@ -7,5 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-//[myBoat wash]
-//[
+//[myBoat getfuel]
+//[myBoat sail]
+//[myBoat break]
+
+//[myMotorcycle getfuel]
+//[myMotorcycle run]
+//[myMotorcycle break]
+
+// Yes, some of the actions between the 2 vehicle are overlapped such as get fuel and break. I can say that even sail or run are different verbs but doing the same thing
