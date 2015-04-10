@@ -8,11 +8,19 @@
 
 #import <Foundation/Foundation.h>
 #import "Car.h"
-
+#import "XYPoint.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-   [Car setDefaultModel:@"Nissan Versa"];
+        //Challenge6
+        
+        XYPoint *myXYPoint =[[XYPoint alloc]init];
+        myXYPoint.x = 2;
+        myXYPoint.y = 3;
+        NSLog(@"the x is: %ld, y is: %ld", myXYPoint.x, myXYPoint.y);
+        
+
+        [Car setDefaultModel:@"Nissan Versa"];
         
         Car *toyota = [[Car alloc] init];
         
@@ -62,7 +70,8 @@ int main(int argc, const char * argv[]) {
         if (NSClassFromString(@"Car") == [Car class]) {
             NSLog(@"I can convert between strings and classes!");
         }
-      
+      //allocate and init XYPoint
+        
     }
     return 0;
 }
