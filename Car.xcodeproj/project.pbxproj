@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D13B4BEF1AD74CC700EF527D /* Challenge4.m in Sources */ = {isa = PBXBuildFile; fileRef = D13B4BEE1AD74CC700EF527D /* Challenge4.m */; };
 		D13B4BF21AD74F4500EF527D /* Challenge5.m in Sources */ = {isa = PBXBuildFile; fileRef = D13B4BF11AD74F4500EF527D /* Challenge5.m */; };
-		D13B4BF51AD760A600EF527D /* Challenge6.m in Sources */ = {isa = PBXBuildFile; fileRef = D13B4BF41AD760A600EF527D /* Challenge6.m */; };
+		D13B4BF91AD76B8400EF527D /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D13B4BF81AD76B8400EF527D /* XYPoint.m */; };
 		D14CD2E61AD6E9F700DBFEFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D14CD2E51AD6E9F700DBFEFE /* main.m */; };
 		D14CD2F01AD6EAB600DBFEFE /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = D14CD2EF1AD6EAB600DBFEFE /* Car.m */; };
 		D14CD3081AD71C2000DBFEFE /* Cellphone.m in Sources */ = {isa = PBXBuildFile; fileRef = D14CD3071AD71C2000DBFEFE /* Cellphone.m */; };
@@ -32,8 +32,8 @@
 /* Begin PBXFileReference section */
 		D13B4BEE1AD74CC700EF527D /* Challenge4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge4.m; sourceTree = "<group>"; };
 		D13B4BF11AD74F4500EF527D /* Challenge5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge5.m; sourceTree = "<group>"; };
-		D13B4BF31AD760A600EF527D /* Challenge6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Challenge6.h; sourceTree = "<group>"; };
-		D13B4BF41AD760A600EF527D /* Challenge6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Challenge6.m; sourceTree = "<group>"; };
+		D13B4BF71AD76B8400EF527D /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		D13B4BF81AD76B8400EF527D /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 		D14CD2E21AD6E9F700DBFEFE /* Car */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Car; sourceTree = BUILT_PRODUCTS_DIR; };
 		D14CD2E51AD6E9F700DBFEFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D14CD2EE1AD6EAB600DBFEFE /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
@@ -73,6 +73,8 @@
 		D13B4BF61AD760AE00EF527D /* Challenge6 */ = {
 			isa = PBXGroup;
 			children = (
+				D13B4BF71AD76B8400EF527D /* XYPoint.h */,
+				D13B4BF81AD76B8400EF527D /* XYPoint.m */,
 			);
 			name = Challenge6;
 			sourceTree = "<group>";
@@ -81,8 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				D13B4BF61AD760AE00EF527D /* Challenge6 */,
-				D13B4BF31AD760A600EF527D /* Challenge6.h */,
-				D13B4BF41AD760A600EF527D /* Challenge6.m */,
 				D13B4BF01AD74F0E00EF527D /* Challenge5 */,
 				D13B4BED1AD74CA900EF527D /* Challenge4 */,
 				D14CD3141AD723AB00DBFEFE /* Challenge3 */,
@@ -200,7 +200,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D13B4BF51AD760A600EF527D /* Challenge6.m in Sources */,
 				D14CD2F01AD6EAB600DBFEFE /* Car.m in Sources */,
 				D14CD3081AD71C2000DBFEFE /* Cellphone.m in Sources */,
 				D14CD2E61AD6E9F700DBFEFE /* main.m in Sources */,
@@ -208,6 +207,7 @@
 				D14CD3111AD7214700DBFEFE /* Cellphone2.m in Sources */,
 				D13B4BEF1AD74CC700EF527D /* Challenge4.m in Sources */,
 				D14CD3131AD7239800DBFEFE /* Challenge3.m in Sources */,
+				D13B4BF91AD76B8400EF527D /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

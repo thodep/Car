@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Changed the car to a %@", toyota.model);
         
         [toyota drive];
-        
+
 
         // Instantiating objects
         Car *nissan = [[Car alloc] init];
@@ -62,7 +62,7 @@ int main(int argc, const char * argv[]) {
         if (NSClassFromString(@"Car") == [Car class]) {
             NSLog(@"I can convert between strings and classes!");
         }
-    
+      
     }
     return 0;
 }
